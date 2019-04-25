@@ -16,3 +16,5 @@ conditioner.addPlugin({
 
 // lets go!
 conditioner.hydrate(document.documentElement);
+
+if (module.hot) module.hot.accept()
